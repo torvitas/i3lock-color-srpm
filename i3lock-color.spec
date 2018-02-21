@@ -7,21 +7,21 @@ License:        BSD
 URL:            https://github.com/PandorasFox/i3lock-color
 Source0:        https://github.com/PandorasFox/i3lock-color/archive/2.10.tar.gz
 
-Requires:       cairo-devel
+BuildRequires:  libxcb-devel
+BuildRequires:  cairo-devel
+BuildRequires:  libev-devel
+BuildRequires:  libjpeg-devel
+BuildRequires:  libxkbcommon-x11-devel
+BuildRequires:  xcb-util-image-devel
+BuildRequires:  pam-devel
+Requires:       xcb-util-devel
 Requires:       libev
-Requires:       libev
-Requires:       libev-devel
-Requires:       libjpeg-devel
 Requires:       libjpeg-turbo
 Requires:       libxcb
 Requires:       libxkbcommon
 Requires:       libxkbcommon-x11
-Requires:       libxkbcommon-x11-devel
-Requires:       pam-devel
 Requires:       pkg-config
-Requires:       xcb-util-devel
 Requires:       xcb-util-image
-Requires:       xcb-util-image-devel
 
 %global debug_package %{nil}
 
