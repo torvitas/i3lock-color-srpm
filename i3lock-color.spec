@@ -1,11 +1,11 @@
 Name:           i3lock-color
-Version:        2.10
+Version:        c85ced646e1cd134f119732793b50e3fed8ac0c4
 Release:        1%{?dist}
 Summary:        This is just a re-patched version of i3lock with the commits from i3lock-color
 
 License:        BSD
 URL:            https://github.com/torvitas/i3lock-next.spec
-Source0:        https://github.com/PandorasFox/i3lock-color/archive/2.10.tar.gz
+Source0:        https://github.com/PandorasFox/i3lock-color/archive/c85ced646e1cd134f119732793b50e3fed8ac0c4.tar.gz
 
 BuildRequires:  libxcb-devel
 BuildRequires:  cairo-devel
