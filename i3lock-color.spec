@@ -15,6 +15,7 @@ BuildRequires:  libxkbcommon-x11-devel
 BuildRequires:  xcb-util-image-devel
 BuildRequires:  pam-devel
 BuildRequires:  xcb-util-devel
+BuildRequires:  autoconf
 Requires:       libev
 Requires:       libjpeg-turbo
 Requires:       libxcb
