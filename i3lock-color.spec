@@ -32,21 +32,21 @@ i3lock is a simple screen locker like slock. After starting it, you will see a w
 %autosetup
 
 %build
-%make_build
-
+autoreconf -i
+./configure
+%make_build prefix=/usr
 
 %install
 rm -rf %{buildroot}
-%make_install
+%make_install prefix=/usr
 
 
 %files
 %license LICENSE
 %doc README.md
 %{_bindir}/i3lock
-/etc/pam.d/i3lock
-
-
+/usr/etc/pam.d/i3lock
+/usr/share/man/man1/i3lock.1.gz
 
 %changelog
 * Wed Feb 21 2018 Sascha Marcel Schmidt <mail@saschaschmidt.net>
