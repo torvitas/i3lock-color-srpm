@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        This is just a re-patched version of i3lock with the commits from i3lock-color
 
 License:        BSD
-URL:            https://github.com/PandorasFox/i3lock-color
+URL:            https://github.com/torvitas/i3lock-next.spec
 Source0:        https://github.com/PandorasFox/i3lock-color/archive/2.10.tar.gz
 
 BuildRequires:  libxcb-devel
