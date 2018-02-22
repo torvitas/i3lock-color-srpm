@@ -16,6 +16,7 @@ BuildRequires:  xcb-util-image-devel
 BuildRequires:  pam-devel
 BuildRequires:  xcb-util-devel
 BuildRequires:  autoconf
+BuildRequires:  automake
 Requires:       libev
 Requires:       libjpeg-turbo
 Requires:       libxcb
